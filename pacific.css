@@ -88,6 +88,12 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 10px;
+    margin-left: 170px;
+    background-color: #FFFFFF;
+}
+
+header, nav, main, footer { 
+    display: block; 
 }
 
 #wrapper {
@@ -105,6 +111,7 @@ footer {
     background-image: url(pacific6/coast.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
 
 #yurthero {
@@ -112,6 +119,7 @@ footer {
     background-image: url(pacific6/yurt.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
 
 #trailhero {
@@ -119,4 +127,5 @@ footer {
     background-image: url(pacific6/trail.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
 }
