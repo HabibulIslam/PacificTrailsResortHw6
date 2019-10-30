@@ -1,3 +1,7 @@
+* { 
+    box-sizing: border-box; 
+}
+
 body {
     background-color: #FFFFFF;
     color: #666666;
@@ -34,9 +38,10 @@ h3 {
 }
 
 nav {
-    background-color: #90C7E3;
     font-weight: bold;
-    padding: 5px;
+    padding: 20px 5px 0px 20px;
+    float: left;
+    width: 160px;
 }
 
 nav a { 
@@ -69,7 +74,7 @@ footer {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #ffffff;
+  background-color: #90C7E3;
   min-width: 720px;
   max-width: 1024px;
   box-shadow: 3px 3px;
