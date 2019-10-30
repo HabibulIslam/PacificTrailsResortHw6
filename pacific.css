@@ -10,13 +10,11 @@ body {
 }
 
 main {
-    padding-left: 20px;
-    padding-right: 20px;
     display: block;
     background-color: #FFFFFF;
-    
-    
-    170 pixels of left margin, 1 pixel of top padding, and 1 pixel of bottom padding
+    margin-left: 170px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 header {
