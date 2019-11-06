@@ -6,15 +6,17 @@ body {
     background-color: #FFFFFF;
     color: #666666;
     font-family: Verdana, Arial, san-serif;
-    background-image: url("pacific7/background.jpg");
+    background-image: none;
+    margin: 0px;
+    pdding: 0px;
 }
 
 main {
     display: block;
     background-color: #FFFFFF;
-    margin-left: 170px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    margin-left: 0px;
+    padding: 1em;
+    font-size: 90%;
 }
 
 header {
@@ -32,7 +34,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     height: 72px;
-    margin-bottom: 0;
+    margin: 0px;
 }
 
 h3 {
@@ -41,13 +43,14 @@ h3 {
 
 nav {
     font-weight: bold;
-    padding: 20px 5px 0px 20px;
-    float: left;
-    width: 160px;
+    padding: 0.5em;
+    float: none;
+    width: auto;
 }
 
 nav a { 
     text-decoration: none; 
+    padding: 1em;
 }
 
 nav a:link {
@@ -66,6 +69,10 @@ nav ul {
     list-style-type:none;
     padding: 0px; 
     margin: 0px;
+}
+
+nav li {
+    display: inline-block;
 }
 
 h2 {
@@ -97,13 +104,12 @@ header, nav, main, footer {
 }
 
 #wrapper {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+  width: auto;
+  margin: 0px;
   background-color: #90C7E3;
-  min-width: 720px;
+  min-width: 0px;
   max-width: 1024px;
-  box-shadow: 3px 3px;
+  box-shadow: none;
 }
 
 #homehero {
@@ -111,7 +117,7 @@ header, nav, main, footer {
     background-image: url(pacific7/coast.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 170px;
+    margin-left: 0px;
 }
 
 #yurthero {
@@ -119,7 +125,7 @@ header, nav, main, footer {
     background-image: url(pacific7/yurt.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 170px;
+    margin-left: 0px;
 }
 
 #trailhero {
@@ -127,7 +133,11 @@ header, nav, main, footer {
     background-image: url(pacific7/trail.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 170px;
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 1024px) 
+{
 }
 
 #mobile { display: none; }
